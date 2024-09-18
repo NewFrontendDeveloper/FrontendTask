@@ -1,1 +1,36 @@
-/*# sourceMappingURL=main.css.map */
+.image-slider__image {
+  text-align: center;
+}
+.image-slider__image img {
+  max-width: 100%;
+}
+
+.image-slider {
+  margin: 30px 0 70px 0;
+  position: relative;
+}
+
+.image-slider__arrow {
+  color: white;
+}
+
+.wrapper {
+  min-height: 100%;
+}
+
+.image-slider__pagination {
+  bottom: 0;
+}
+.image-slider .swiper-pagination-bullet {
+  width: 15px;
+  height: 15px;
+  line-height: 20px;
+  background-color: white;
+}
+
+body {
+  height: 100%;
+  line-height: 1;
+  background-color: #333;
+  overflow-x: hidden;
+}/*# sourceMappingURL=main.css.map */

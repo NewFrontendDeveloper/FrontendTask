@@ -1,0 +1,12 @@
+.image-slider {
+    &__pagination {
+        bottom: 0;
+    }
+
+    .swiper-pagination-bullet {
+        width: 15px;
+        height: 15px;
+        line-height: 20px;
+        background-color: white;
+    }
+}

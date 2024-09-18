@@ -1,0 +1,12 @@
+@import "../blocks/image-slider/__image/image-slider__image";
+@import "../blocks/image-slider/image-slider";
+@import "../blocks/image-slider/__arrow/_imge-slider__arrow.scss";
+@import "../blocks/wrapper/wrapper";
+@import "../blocks/image-slider/__pagination/image-slider__pagination";
+
+body {
+    height: 100%;
+    line-height: 1;
+    background-color: #333;
+    overflow-x: hidden;
+}
