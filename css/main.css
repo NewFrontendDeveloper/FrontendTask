@@ -28,6 +28,38 @@
   background-color: white;
 }
 
+.container-cards__card-title {
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.container-cards__card-footer {
+  font-size: 28px;
+  font-weight: 400;
+}
+
+.container-cards {
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+
+.title {
+  color: white;
+  font-size: 44px;
+  font-weight: 600;
+}
+
+.container-about-us__text {
+  color: white;
+  font-size: 26px;
+  font-weight: 500;
+}
+
+.container-contacts {
+  color: white;
+  max-width: 700px;
+}
+
 body {
   height: 100%;
   line-height: 1;

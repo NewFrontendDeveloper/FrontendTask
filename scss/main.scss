@@ -3,6 +3,14 @@
 @import "../blocks/image-slider/__arrow/_imge-slider__arrow.scss";
 @import "../blocks/wrapper/wrapper";
 @import "../blocks/image-slider/__pagination/image-slider__pagination";
+@import "../blocks/container-cards/__card-title/container-cards__card-title";
+@import "../blocks/container-cards/__price/container-cards__card-footer";
+@import "../blocks/container-cards/__card/container-cards__card";
+@import "../blocks/container-cards/container-cards";
+@import "../blocks/title/title";
+@import"../blocks/container-about-us/__text/container-about-us__text";
+@import "../blocks/container-contacts/container-contacts";
+
 
 body {
     height: 100%;
