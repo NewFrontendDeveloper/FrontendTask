@@ -1,8 +1,10 @@
 .image-slider__image {
+  height: auto;
   text-align: center;
 }
 .image-slider__image img {
   max-width: 100%;
+  width: 1400px;
 }
 
 .image-slider {
@@ -15,7 +17,7 @@
 }
 
 .wrapper {
-  min-height: 100%;
+  max-width: 100%;
 }
 
 .image-slider__pagination {
@@ -38,6 +40,11 @@
   font-weight: 400;
 }
 
+.container-cards__card {
+  background-color: #4b4a4a;
+  color: white;
+}
+
 .container-cards {
   -moz-column-gap: 15px;
        column-gap: 15px;
@@ -47,6 +54,7 @@
   color: white;
   font-size: 44px;
   font-weight: 600;
+  margin-top: 100px;
 }
 
 .container-about-us__text {
@@ -60,9 +68,10 @@
   max-width: 700px;
 }
 
-body {
+html body {
   height: 100%;
   line-height: 1;
   background-color: #333;
+  scroll-behavior: smooth;
   overflow-x: hidden;
 }/*# sourceMappingURL=main.css.map */

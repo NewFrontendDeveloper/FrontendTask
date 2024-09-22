@@ -12,9 +12,12 @@
 @import "../blocks/container-contacts/container-contacts";
 
 
-body {
-    height: 100%;
-    line-height: 1;
-    background-color: #333;
-    overflow-x: hidden;
+html {
+    body {
+        height: 100%;
+        line-height: 1;
+        background-color: #333;
+        scroll-behavior: smooth;
+        overflow-x: hidden;
+    }
 }

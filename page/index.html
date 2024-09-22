@@ -7,7 +7,7 @@
     <!-- CSS Only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
     <link rel="stylesheet" href="/css/main.css">
     <title>Frontend Task</title>
 </head>
@@ -24,16 +24,16 @@
             <div class="collapse navbar-collapse navbar__collapse" id="navbarContent">
                 <ul class="navbar-nav me-auto navbar__nav">
                     <li class="nav-item navbar__nav-item">
-                        <a class="nav-link navbar__nav-link" href="">Главная</a>
+                        <a class="nav-link navbar__nav-link" href="#slider">Главная</a>
                     </li>
                     <li class="nav-item navbar__nav-item">
-                        <a class="nav-link navbar__nav-link" href="">О нас</a>
+                        <a class="nav-link navbar__nav-link" href="#about-us">О нас</a>
                     </li>
                     <li class="nav-item navbar__nav-item">
-                        <a class="nav-link navbar__nav-link" href="">Товары</a>
+                        <a class="nav-link navbar__nav-link" href="#products">Товары</a>
                     </li>
                     <li class="nav-item navbar__nav-item">
-                        <a class="nav-link navbar__nav-link" href="">Контакты</a>
+                        <a class="nav-link navbar__nav-link" href="#contacts">Контакты</a>
                     </li>
                 </ul>
                 <form class="navbar__form d-flex">
@@ -43,27 +43,27 @@
         </div>
     </nav>
 
-    <div class="wrapper">
+    <div class="wrapper" id="slider">
         <div class="image-slider swiper-container">
             <div class="image-slider__wrapper swiper-wrapper">
                 <div class="image-slider__slide swiper-slide">
                     <div class="image-slider__image">
-                        <img src="/img/image-slider/01.webp" alt="">
+                        <img src="/img/image-slider/01.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="image-slider__slide swiper-slide">
                     <div class="image-slider__image">
-                        <img src="/img/image-slider/02.webp" alt="">
+                        <img src="/img/image-slider/02.jpg" alt="" class="img-fluid">
                     </div>
                 </div>
                 <div class="image-slider__slide swiper-slide">
                     <div class="image-slider__image">
-                        <img src="/img/image-slider/03.webp" alt="">
+                        <img src="/img/image-slider/03.jpg" alt="">
                     </div>
                 </div>
                 <div class="image-slider__slide swiper-slide">
                     <div class="image-slider__image">
-                        <img src="/img/image-slider/04.webp" alt="">
+                        <img src="/img/image-slider/04.jpg" alt="">
                     </div>
                 </div>
             </div>
@@ -73,52 +73,92 @@
             <div class="swiper-pagination image-slider__pagination"></div>
         </div>
     </div>
-
-    <div class="container mb-5 container-cards">
+    <div class="container mb-5 container-cards" id="products">
         <div class="row container-cards__row">
-            <div class="col-md-4 gy-3">
+            <div class="container-cards__column col-md-4 gy-3">
                 <div class="card h-100 container-cards__card">
                     <img src="/img/card-container/01.jpg" class="card-img-top container-cards__card-img-top" alt="">
                     <div class="card-body container-cards__card-body">
                         <div class="card-title container-cards__card-title">Шоколадный торт с бананом</div>
-                        <p class="card-text container-cards__card-text">Some quick example text to build on the card
-                            title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text container-cards__card-text">Нежный шоколадный
+                            торт с влажной текстурой и насыщенным вкусом шоколада, дополненный сладкими ломтиками банана
+                            и покрытый кремом.</p>
                     </div>
-                    <div class="d-flex justify-content-around mb-3 container-cards__card-footer">
+                    <div class="d-flex justify-content-around mt-3 mb-3 container-cards__card-footer">
                         <strong class="container-cards__price">190 р</strong>
                         <a href="#" class="btn btn-primary container-cards__card-btn">Купить</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 gy-3">
+            <div class="container-cards__column col-md-4 gy-3">
                 <div class="card h-100 container-cards__card">
                     <img src="/img/card-container/02.jpg" class="card-img-top container-cards__card-img-top" alt="">
                     <div class="card-body container-cards__card-body">
                         <div class="card-title container-cards__card-title">Йогурт с чиа</div>
-                        <p class="card-text container-cards__card-text">Some quick example text to build on the card
-                            title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text container-cards__card-text">Освежающий и полезный десерт, приготовленный из
+                            нежного йогурта и семян чиа, которые придают текстуру и дополнительно обогащают блюдо
+                            питательными веществами.</p>
                     </div>
-                    <div class="d-flex justify-content-around mb-3 container-cards__card-footer">
+                    <div class="d-flex justify-content-around mt-3 mb-3 container-cards__card-footer">
                         <strong class="container-cards__price">190 р</strong>
                         <a href="#" class="btn btn-primary container-cards__card-btn">Купить</a>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 gy-3">
+            <div class="container-cards__column col-md-4 gy-3">
                 <div class="card h-100 container-cards__card">
                     <img src="/img/card-container/03.jpg" class="card-img-top container-cards__card-img-top" alt="">
                     <div class="card-body container-cards__card-body">
                         <div class="card-title container-cards__card-title">Чизкейк</div>
-                        <p class="card-text container-cards__card-text">Some quick example text to build on the card
-                            title and make up the bulk of
-                            the
-                            card's content.</p>
+                        <p class="card-text container-cards__card-text">Кремовый чизкейк на хрустящей основе из печенья,
+                            обладающий легкой кислинкой и сладким вкусом, идеально подходящий для любителей десертов.
+                        </p>
                     </div>
-                    <div class="d-flex justify-content-around mb-3 container-cards__card-footer">
+                    <div class="d-flex justify-content-around mt-3 mb-3 container-cards__card-footer">
+                        <strong class="container-cards__price">190 р</strong>
+                        <a href="#" class="btn btn-primary container-cards__card-btn">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-cards__column col-md-4 gy-3">
+                <div class="card h-100 container-cards__card">
+                    <img src="/img/card-container/04.jpg" class="card-img-top container-cards__card-img-top" alt="">
+                    <div class="card-body container-cards__card-body">
+                        <div class="card-title container-cards__card-title">Флэт уайт</div>
+                        <p class="card-text container-cards__card-text">Интенсивный кофе на основе эспрессо с равным
+                            количеством пара и свежего молока, что позволяет насладиться крепким вкусом с бархатистой
+                            текстурой.</p>
+                    </div>
+                    <div class="d-flex justify-content-around mt-3 mb-3 container-cards__card-footer">
+                        <strong class="container-cards__price">190 р</strong>
+                        <a href="#" class="btn btn-primary container-cards__card-btn">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-cards__column col-md-4 gy-3">
+                <div class="card h-100 container-cards__card">
+                    <img src="/img/card-container/05.jpg" class="card-img-top container-cards__card-img-top" alt="">
+                    <div class="card-body container-cards__card-body">
+                        <div class="card-title container-cards__card-title">Амкрикано</div>
+                        <p class="card-text container-cards__card-text">Простой и крепкий кофе, приготовленный путем
+                            добавления горячей воды к эспрессо, создающий насыщенный и ароматный напиток, идеально
+                            подходящий для утреннего пробуждения.</p>
+                    </div>
+                    <div class="d-flex justify-content-around mt-3 mb-3 container-cards__card-footer">
+                        <strong class="container-cards__price">190 р</strong>
+                        <a href="#" class="btn btn-primary container-cards__card-btn">Купить</a>
+                    </div>
+                </div>
+            </div>
+            <div class="container-cards__column col-md-4 gy-3">
+                <div class="card h-100 container-cards__card">
+                    <img src="/img/card-container/06.jpg" class="card-img-top container-cards__card-img-top" alt="">
+                    <div class="card-body container-cards__card-body">
+                        <div class="card-title container-cards__card-title">Латте</div>
+                        <p class="card-text container-cards__card-text">Ароматный эспрессо, дополненный обильным парным
+                            молоком и легкой пенкой, создающий сбалансированный и кремовый кофейный напиток.</p>
+                    </div>
+                    <div class="d-flex justify-content-around mt-3 mb-3 container-cards__card-footer">
                         <strong class="container-cards__price">190 р</strong>
                         <a href="#" class="btn btn-primary container-cards__card-btn">Купить</a>
                     </div>
@@ -126,7 +166,7 @@
             </div>
         </div>
     </div>
-    <div class="title text-center">О нас</div>
+    <div class="title text-center" id="about-us">О нас</div>
     <div class="container mt-5 container-about-us">
         <div class="row container-about-us__row mb-3 align-items-center">
             <div class="col-12 col-md-6 container-about-us__image-wrapper">
@@ -163,7 +203,7 @@
             </div>
         </div>
     </div>
-    <div class="title text-center mt-5 mb-3">Контакты</div>
+    <div class="title text-center mb-3" id="contacts">Контакты</div>
     <div class="container-contacts container">
         <div class="container-contacts__form-group mb-3">
             <label for="exampleFormControlInput1" class="form-label container-contacts__form-label">Email
